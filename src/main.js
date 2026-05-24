@@ -25,12 +25,12 @@ const vuetify = createVuetify({
       brisaTheme: {
         dark: false,
         colors: {
-          primary: '#1F7A53',
-          secondary: '#BEE8CB',
-          accent: '#23B26F',
-          surface: '#EEF8F2',
-          background: '#E5F2E9',
-          info: '#4B8E73',
+          primary: '#0F766E',
+          secondary: '#D6C7B5',
+          accent: '#E9A94E',
+          surface: '#FFFDF8',
+          background: '#F5F0E7',
+          info: '#334155',
         },
       },
     },

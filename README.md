@@ -1,4 +1,4 @@
-# Store WhatsApp (Vue + Vuetify)
+# Catálogo WhatsApp (Vue + Vuetify)
 
 Landing/catalogo centrado en WhatsApp:
 - pedidos por chat
@@ -11,13 +11,13 @@ Landing/catalogo centrado en WhatsApp:
 
 ## Configuración
 
-Puedes personalizar datos del negocio desde variables de entorno:
+Puedes personalizar los datos del negocio desde variables de entorno:
 
 ```bash
 # .env
-VITE_STORE_NAME="Don Jose's"
+VITE_STORE_NAME="Tu negocio"
 VITE_WHATSAPP_PHONE="5355512345"
-VITE_STORE_LOCATION="La Habana, Cuba"
+VITE_STORE_LOCATION="Atencion local y delivery"
 VITE_STORE_HOURS="Lun a Sáb · 9:00 a 19:00"
 ```
 

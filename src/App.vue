@@ -2,9 +2,9 @@
 import { computed, ref } from 'vue'
 
 const business = {
-  name: import.meta.env.VITE_STORE_NAME || "Don Jose's",
+  name: import.meta.env.VITE_STORE_NAME || 'Tu negocio',
   phone: import.meta.env.VITE_WHATSAPP_PHONE || '5355512345',
-  location: import.meta.env.VITE_STORE_LOCATION || 'Entrega a domicilio',
+  location: import.meta.env.VITE_STORE_LOCATION || 'Atencion local y delivery',
   hours: import.meta.env.VITE_STORE_HOURS || 'Lun a Sab · 9:00 a 19:00',
 }
 
@@ -23,12 +23,12 @@ const steps = [
   {
     icon: 'mdi-map-marker-radius-outline',
     title: 'Comparte tu ubicacion',
-    text: 'Abre WhatsApp con tu mapa exacto para que el reparto llegue sin perder tiempo.',
+    text: 'Abre WhatsApp con tu mapa exacto para que la entrega llegue sin perder tiempo.',
   },
   {
     icon: 'mdi-whatsapp',
     title: 'Confirma por chat',
-    text: 'Nos llega todo por WhatsApp y te respondemos con disponibilidad y precio.',
+    text: 'Te respondemos por WhatsApp con disponibilidad, precio y siguiente paso.',
   },
 ]
 
@@ -36,7 +36,7 @@ const trustMarks = [
   'Pide sin llamadas',
   'Ubicacion por WhatsApp',
   'Catalogo claro y rapido',
-  'Ideal para delivery',
+  'Ideal para pedidos y delivery',
 ]
 
 const categories = [
