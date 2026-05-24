@@ -47,6 +47,7 @@ La app ya incluye:
 - build apto para publicar `dist` en GitHub Pages
 
 Antes de activar el dominio en GitHub Pages, configura el registro DNS para `store.jorgelsc.dev` segun tu proveedor.
+Para este subdominio, GitHub Pages espera un `CNAME` que apunte a `jorgelsc-dev.github.io`, no un `A` record.
 
 ---
 
